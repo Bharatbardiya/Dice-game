@@ -1,3 +1,3 @@
-## Dice-game
+# Dice-game
 
-# site link https://bharatbardiya.github.io/Dice-game/
+ site link https://bharatbardiya.github.io/Dice-game/
