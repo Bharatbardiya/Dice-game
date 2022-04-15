@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="icon" href="images/dice5.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="game">
+        <button class="btn" onclick="game()">Start Game</button>
+        <div class="container">
+            <div class="player1 player">
+                <h1>player1</h1>
+                <img id="p1Dice" src="images/player1.png" alt="player1">
+                <img id="p1d1" class="remove" src="images/dice1.png" alt="dice1">
+                <img id="p1d2" class="remove" src="images/dice2.png" alt="dice2">
+                <img id="p1d3" class="remove" src="images/dice3.png" alt="dice3">
+                <img id="p1d4" class="remove" src="images/dice4.png" alt="dice4">
+                <img id="p1d5" class="remove" src="images/dice5.png" alt="dice5">
+                <img id="p1d6" class="remove" src="images/dice6.png" alt="dice6">
+            </div>
+            <div class="player2 player">
+                <h1>player2</h1>
+                <img id="p2Dice" src="images/player2.png" alt="player2">
+                <img id="p2d1" class="remove" src="images/dice1.png" alt="dice1">
+                <img id="p2d2" class="remove" src="images/dice2.png" alt="dice2">
+                <img id="p2d3" class="remove" src="images/dice3.png" alt="dice3">
+                <img id="p2d4" class="remove" src="images/dice4.png" alt="dice4">
+                <img id="p2d5" class="remove" src="images/dice5.png" alt="dice5">
+                <img id="p2d6" class="remove" src="images/dice6.png" alt="dice6">
+            </div>
+            <div class="player2"></div>
+        </div>
+        <div class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
